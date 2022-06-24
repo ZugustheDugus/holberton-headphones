@@ -1,1 +1,1 @@
-# holberton-headphones
+Holberton Headphones project for Holberton School by: Hayden M. Cooper
