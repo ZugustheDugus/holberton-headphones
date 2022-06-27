@@ -224,7 +224,7 @@ input {
     font-family: var(--font-ssp-reg);
 }
 
-/* WWD - ICONS */
+/* WWD SECTION - ICONS */
 
 @font-face {
     font-family: 'holberton_school-icon';
@@ -328,6 +328,7 @@ input {
     flex-direction: column;
     align-items: center;
     justify-content: space-between;
+    height: unset;
   }
 
   .text-container {
@@ -340,5 +341,78 @@ input {
   
   .content-div {
     width: 80%;
+  }
+}
+
+/* OUR RESULTS SECTION */
+
+.background-img {
+  display: flex;
+  height: 650px;
+  width: 100%;
+  background-image: url("./images/headphones_hero_2.jpg");
+}
+
+.or-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 650px;
+  width: 638px;
+  margin: auto;
+  text-align: center;
+  color: white;
+  justify-content: center;
+}
+
+.or-title h1 {
+  margin-bottom: 0px;
+  font-family: var(--font-ssp-semibold);
+}
+
+.or-text {
+  margin-top: 50px;
+  font-family: var(--font-ssp-reg);
+}
+
+.pent {
+  width: 190px;
+  background-image: url("./images/pentagone.png");
+  background-size: 190px 190px;
+  background-repeat: no-repeat;
+  background-position: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.pent h2 {
+  font-family: var(--font-ssp-bold);
+  font-size: 46px;
+  margin: 20% 0 0 0;
+}
+
+.pent p {
+  font-family: var(--font-ssp-reg);
+  font-size: 16px;
+}
+
+@media (max-width: 480px) {
+  .or-container {
+    width: 100%;
+    margin-top: 100%;
+  }
+
+  .background-img {
+    margin-top: 150%;
+    height: 1600px;
+    background-repeat: no-repeat;
+    background-color:rgba(7, 22, 41, 1);
+    background-position: 54% -10%;
+  }
+
+  .pent {
+    margin: 40px;
+    height: 190px;
   }
 }
